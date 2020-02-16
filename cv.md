@@ -30,6 +30,9 @@ Mostly, I have been developing university course projects.
 ## Education
 **Belarusian National Technical University** (2016 – 2020) : Faculty of Information Technologies And Robotics.
 ### Courses
+* [«JavaScript/Front-end» course by RSS](https://rs.school/js)
+* [Codeacademy courses](https://www.codecademy.com/users/deltapoint/achievements)
+* [Htmlacademy courses](https://htmlacademy.ru/profile/id1362863/achievements)
 
  _Self-education - in 99% of cases_...
 
