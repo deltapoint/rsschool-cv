@@ -11,7 +11,20 @@ I am a beginner in web-development with some experience in HTML, CSS and JS. I w
 * Version control systems: ```Git```
 * Graphics editors: ```Autodesk, SAI, Photoshop, Paint```
 ## Code examples:
+The most recent code example:
+```
+const randomNumber = require('random-number-csprng');
 
+const entries = [
+	'🏴',
+	'🏳️',
+	'🏁'
+];
+
+randomNumber(0, entries.length - 1, (err, index) => {
+	console.log(entries[index]);
+});
+```
 ## Experience:
 
 ## Education
