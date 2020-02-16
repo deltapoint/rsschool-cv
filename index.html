@@ -1,9 +1,89 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    
-  </head>
-  <body>
-    
-  </body>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link href="https://i.imgur.com/RrPDC30.png" rel="favicon" type="image/png"/>
+	<meta name="keywords" content="HTML, CSS"/>
+	<meta name="description" content="@deltapoint resume"/>
+	<link href = "style.css" rel="stylesheet">
+	<title>@deltapoint resume</title>
+</head>
+<body>
+	<main>
+		<section id="top">
+			<div class="basics">
+				<img id="avatar" src="https://sun9-43.userapi.com/c855336/v855336769/168bea/EBGnohjTGi8.jpg" alt="avatar">
+				<div class="fullname">
+					<h1 class="gradient-text">Kolosovskaya Ekaterina</h1>
+					<h3>Junior JavaScript Developer</h3>
+					<a class="button inverse-button" href="#about">Know more</a>
+				</div>
+			</div>
+		</section>
+		<section id="about">
+			<div class="about">
+				<h1 class="title-info inverse-gradient-text">HERE'S WHAT I'M DOING</h1>
+				<div class="info">
+					<p>I am a beginner in web-development with some experience in HTML, CSS and JS. 
+					I want to complete the RSS JS course to get more practice and have an opportunity to take part in creating things which I really like.</p><br>
+					<p><strong>Experience</strong></p>
+					<p>Mostly, I have been developing university course projects.</p><br>
+					<p><strong>Education</strong></p>
+					<p>Belarusian National Technical University (2016 – 2020) : Faculty of Information Technologies And Robotics.</p><br>
+					<p><strong>Courses</strong></p>
+					<p><em><a href="https://rs.school/">JavaScript Course: The Rolling Scopes School</a></em></p>
+					<p><em><a href="https://www.codecademy.com/users/deltapoint/achievements">Codeacademy courses</a></em></p>
+					<p>Self-education - in 99% of cases…</p><br>    
+					<p><strong>Foreign languages</strong></p>
+					<p><em>English: Intermediate</em><br>       
+					I attended the semi-annual English language course (October 2018 – January 2019). Moreover, I spend a 
+					couple of minutes every day reading articles and watching videos in English.</p><br>
+				</div>
+			</div>
+			<div class="waves-bottom">	
+				<img src="https://i.imgur.com/9uqS11g.png" alt="waves">
+			</div>
+		</section>
+		<section id="skills">
+			<div class="goals">
+				<h1 class="title-skills gradient-text">TECHNICAL SKILLS</h1>
+				<h3>My Front-End Web Development Goals</h3>
+				<div class="progress-bars">
+					<progress max="100" value="45" data-label="HTML"></progress><br>
+					<progress max="100" value="35" data-label="CSS"></progress><br>					
+					<progress max="100" value="15" data-label="JavaScript"></progress>
+				</div>
+			</div>
+			<div class="code">
+				<h3>Code example</h3>
+				<p>The most recent code example:</p><br>
+				<pre><code>const randomNumber = require('random-number-csprng');
+				
+const entries = [
+	'🏴',
+	'🏳️',
+	'🏁'
+];
+
+randomNumber(0, entries.length - 1, (err, index) => {
+	console.log(entries[index]);
+});</code></pre>
+			</div>
+		</section>
+	</main>
+	<footer>
+		<div class="waves-top">	
+			<img src="https://i.imgur.com/IvqDv8j.png" alt="waves">
+		</div>
+		<div class="contact">
+			<div class="back-to-top">
+				<a href="#top"><i class="fa fa-angle-up fa-3x" aria-hidden="true"></i></a><br>
+			</div>
+			<h1 class="title-contact inverse-gradient-text">Contact</h1>
+			<h3>Contact Me</h3>
+		</div>
+	</footer>
+</body>
 </html>
