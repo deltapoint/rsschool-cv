@@ -26,7 +26,7 @@ randomNumber(0, entries.length - 1, (err, index) => {
 });
 ```
 ## Experience:
-
+Mostly, I have been developing university course projects.
 ## Education
 **Belarusian National Technical University** (2016 – 2020) : Faculty of Information Technologies And Robotics.
 ### Courses
